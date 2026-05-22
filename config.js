@@ -1,7 +1,7 @@
 module.exports = {
-    token: process.env.GITHUB_COM_TOKEN,
     platform: 'github',
-
+    gitAuthor: "Renovate Bot <renovate-bot@stderr.at>",
+    dryRun: null,
     onboardingConfig: {
 	extends: ['config:recommended'],
     },
