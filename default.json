@@ -7,6 +7,7 @@
     "schedule": [
         "at any time"
     ],
+    "enabledManagers": ["ansible", "ansible-galaxy"],
     "packageRules": [
 	{
 	    "matchDatasources": ["galaxy-collection"]
